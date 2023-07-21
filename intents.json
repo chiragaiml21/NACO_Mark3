@@ -1,0 +1,68 @@
+{
+    "intents": [
+      {"tag": "greeting",
+      "patterns": ["hey","heyy","hi","hii","hello","Good morning","Hey, how's it going?","Hiya!","Morning!","What's up?","Hey there!","How's your day?","Hi, how are you?","Greetings and salutations!","Hey, nice to see you!","Hello, how have you been?","Hey, how's everything?","Hi, what's happening?","Good to see you!","Hey, long time no see!","Hi, how's life treating you?","Hey, how are things?","Hello, what's new?","Hey, how's your week going?","Hi, how's the weather?"
+      ], 
+      "responses": ["Well, hello there! Fancy meeting you here.","Hey, howdy ho! Ready to have some fun?","Hiya! Did you bring the snacks?","Hello, sunshine! Are you ready to conquer the day?","Hey there! I hope you're wearing your smile today.","Howdy, partner! How about we ride off into the sunset together?","Hi, hi, hi! What's the latest gossip?","Greetings, human! Prepare for some intergalactic conversation.","Well, well, well, look who it is! Ready to chat?","Hello, my friend! Did you bring any jokes with you?","Hey, you! I hope you're ready for some witty banter.","Hi, stranger! Care to embark on a conversational adventure?","Well, hello there! Shall we exchange some clever words?","Greetings, Earthling! I come in peace... and with some jokes!","Hey, hey, hey! I hope you're ready for a virtual high-five.","Hello, you magnificent human being! Let's have a chat that'll make us laugh.","Hey, buddy! Let's put a smile on that face and have a good time!","Hi there, genius! Ready to showcase your wit and charm?","Well, hello, chat aficionado! Let's dive into a pool of delightful conversation.","Greetings, my friend! How about we have a chat that'll make us snort with laughter?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later"],
+      "responses": ["Goodbye!", "Bye-bye!", "Take care!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like today?", "How's the weather?", "Tell me the weather forecast."],
+      "responses": ["The weather is sunny today.", "Expect some rain showers.", "It's going to be a cloudy day."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Give me a funny joke", "I need a laugh"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why don't skeletons fight each other? They don't have the guts!", "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help me", "I need assistance", "Can you help?"],
+      "responses": ["Sure, I'm here to help. What do you need assistance with?", "I'll do my best to assist you. Please let me know how I can help.", "Of course! What do you need help with?"]
+    },
+    {
+      "tag": "unknown",
+      "patterns": ["I don't know", "Sorry, I'm not sure", "Can you repeat that?"],
+      "responses": ["No worries. If you have any other questions, feel free to ask.", "That's alright. Let me know if there's anything else I can assist you with.", "Not a problem. If you need any further information, feel free to ask."]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "Thanks for the help"],
+        "responses": ["You're welcome!", "No problem!", "Anytime!"]
+    },
+    {
+        "tag": "name",
+        "patterns" : ["What's your name?", "What are you called?", "Do you have a name?"],
+        "responses" : ["My name is Chatbot.", "I'm Chatbot!", "I'm called Chatbot."]
+    },
+    {
+        "tag": "age",
+        "patterns" : ["How old are you?", "What's your age?", "When were you born?"],
+        "responses" : ["I'm 1 day old.", "I was born today.", "I'm very young."]
+    },
+    {
+        "tag": "creator",
+        "patterns" : ["Who created you?", "Who made you?", "Who's your creator?"],
+        "responses" : ["I was created by a human.", "My creator is a human.", "A human made me."]
+    },
+    {
+        "tag": "howareyou",
+        "patterns" : ["How are you?", "How are you doing?", "How's it going?"],
+        "responses" : ["I'm doing great!", "I'm doing well, thanks.", "I'm good, thanks."]
+    },
+    {
+      "tag": "unanswered",
+      "patterns": ["Tell me more","I'm not sure","What's the meaning?","Any ideas?","Not clear","Can you explain?","I don't understand","What does it imply?","Please elaborate","Any thoughts?","I need more information","Confused","Is there more to it?","Please clarify","Can you provide details?","What's the point?","I'm lost","Help me understand","What's the purpose?","Can you shed some light?"
+      ],
+      "responses": ["Sorry, I do not understand!"]
+    }
+    
+
+]
+}
