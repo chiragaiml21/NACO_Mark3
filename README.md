@@ -4,5 +4,5 @@
  
  More updates will come in future...
 
- Only Run The Mark3.py file, Don't run the model.py file for now because the model is already trained.
+ Only Run The Mark3.py file, Don't run the model.py file for now because the model is already trained and data is stored in pickle files.
  
