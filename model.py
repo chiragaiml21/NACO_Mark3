@@ -97,13 +97,23 @@ model.summary()
 
 
 #Training the model
+<<<<<<< HEAD
 model_history = model.fit(X_train, y_train, epochs=100, verbose=1, validation_data=(X_test, y_test))
+=======
+model_history = model.fit(X, y, epochs=100, verbose=1, validation_data=(X_test, y_test))
+>>>>>>> chirag
 
 
 #Plotting the accuracy and loss
 model_history.history.keys()
 accuracy = model_history.history['accuracy']
+<<<<<<< HEAD
 print("The accuracy of model is : ",accuracy[-1]*100,"%")
+=======
+val_accuracy = model_history.history['val_accuracy']
+print("The training accuracy of model is : ",accuracy[-1]*100,"%")
+print("The validation accuracy of model is : ",val_accuracy[-1]*100,"%")
+>>>>>>> chirag
 
 
 model.save("Mark3.model")
